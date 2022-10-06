@@ -4,7 +4,7 @@ The shell takes commands and executes them against the operating system. The ter
 
 > A resource for Terminal and Shell command scripting. 
 
-[free resource to study](https://learnshell.org)
+[Free resource to study shell commands and more!](https://learnshell.org)
 
 - Clear the window: ( control + l ) 
 - Also clears the window: `clear` 
@@ -12,12 +12,13 @@ The shell takes commands and executes them against the operating system. The ter
 - Open another virticle window: ( cmd + d )
 - Open a horizontal window: ( shift + cmd + d )
 - Delete a window: ( cmd + w )
-- Go back to the root directory: ( `cd ~ ` )
+- How to delete one word at a time going forwards: ( option + d )
+- How to delete one word at a time going backwards: ( option + backspace )
+- Naviagte to the beggining of a line in terminal: ( control + a )
+- Naviagte to the end of a line in terminal: ( control + e )
 - How to scroll up and down in the window: (shift + arrow buttons)
 - How to get out of vi: ( cmd + :q! )
 - How to move cursor forwards or backwards over text to delete or just move back: ( command + b )
-- Get working path directory: `pwd`
-
 
 --------------------------------------------------------------------------------------------------------
 ## iTerm
@@ -44,5 +45,21 @@ The shell takes commands and executes them against the operating system. The ter
 - [customizing your Oh MY zsh theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 
 --------------------------------------------------------------------------------------------
+## Introduction To Shell Commands
+1. How to access the manual page... `man`
+2. "What manual page do you want?" `man ___` type man and the command you want the manual for
+3. type `q` to exit/quit
+- start typing a file name then press "tab" to finish the file name
+- `date` gives the current date and time
+- `cal` shows your calander add the year ex: `cal 2022` for full years calander
+- `whoami` gives the user name
+- `pwd` gets working path directory
+- `ls` shows the contents inside of the current working directory
+- `ls -a` shows files that begin with a "."
+- `ls -al` shows more details about the files
+- `cd` chnage directory/file/folder
+- `cd ~ ` go back to the root directory
+- `cd ..` go back one level in the directory
+- `cd ../..` go back two levels, keep chaining on /.. for more levels
+- `cd -` go back to the previous folder
 
-## 
