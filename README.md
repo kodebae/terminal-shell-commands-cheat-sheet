@@ -23,6 +23,7 @@ The shell takes commands and executes them against the operating system. The ter
 --------------------------------------------------------------------------------------------------------
 ## iTerm
 - iTerm reccomended as a better terminal
+- [download iTerm]("https://iterm2.com/downloads.html")
 - How to check if you're using bash or zsh: in the iTerm window 
 
 `echo $SHELL`
@@ -35,7 +36,7 @@ The shell takes commands and executes them against the operating system. The ter
 --------------------------------------------------------------------------------------------------------
 ## On My ZSH
 #### an open soource framework for mamanging your zsh configuration
-- How to install == Oh My ZSH ==
+- How to install **Oh My ZSH**
 
 ` sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" `
 
@@ -47,23 +48,25 @@ The shell takes commands and executes them against the operating system. The ter
 --------------------------------------------------------------------------------------------
 ## Introduction To Shell Commands
 1. How to access the manual page... `man`
-2. "What manual page do you want?" `man ___` type man and the command you want the manual for
+2. "What manual page do you want?" `man` + (a command) type man and the command you want the manual for
 3. type `q` to exit/quit
 - start typing a file name then press "tab" to finish the file name
 - `date` gives the current date and time
 - `cal` shows your calander add the year ex: `cal 2022` for full years calander
 - `whoami` gives the user name
+## working with directories
 - `pwd` gets working path directory
 - `ls` shows the contents inside of the current working directory
 - `ls -a` shows files that begin with a "."
 - `ls -al` shows more details about the files
-- `cd` chnage directory/file/folder
+- `cd` change directory/file/folder
 - `cd ~ ` go back to the root directory
 - `cd ..` go back one level in the directory
 - `cd ../..` go back two levels, keep chaining on /.. for more levels
 - `cd -` go back to the previous folder
-- `mkdir` + file_name makes a new file in whatever directory you are currently in
-- `mkdir -p` + file_name/another_file/one_more_file creates sub directories
-- `rm + -rf` + file_name removes a file and it's root directory **CAN NOT BE UNDONE**
-- `mv` + file_1 + file_2 moves file_1 inside of file_2
-- `tree` -- help to see tree commands. Will need to install tree with Homebrew
+- `mkdir` **(+ file_name)** makes a new file in whatever directory you are currently in
+- `mkdir -p` **(+ file_name/another_file/one_more_file)** creates sub directories
+- `rm + -rf` **(+ file_name)** removes a file and it's root directory **CAN NOT BE UNDONE**
+- `mv` **(+ file_1 + file_2)** moves file_1 inside of file_2
+- `tree -- help` to see tree commands, will need to install tree with Homebrew
+- `mv` **(rename_this + new_file_name)** How to give your file a new name
