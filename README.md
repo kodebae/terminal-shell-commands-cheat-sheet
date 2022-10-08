@@ -62,4 +62,8 @@ The shell takes commands and executes them against the operating system. The ter
 - `cd ..` go back one level in the directory
 - `cd ../..` go back two levels, keep chaining on /.. for more levels
 - `cd -` go back to the previous folder
-
+- `mkdir` + file_name makes a new file in whatever directory you are currently in
+- `mkdir -p` + file_name/another_file/one_more_file creates sub directories
+- `rm + -rf` + file_name removes a file and it's root directory **CAN NOT BE UNDONE**
+- `mv` + file_1 + file_2 moves file_1 inside of file_2
+- `tree` -- help to see tree commands. Will need to install tree with Homebrew
