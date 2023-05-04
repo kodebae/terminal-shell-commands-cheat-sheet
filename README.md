@@ -1,4 +1,4 @@
-🧑‍💻 # Terminal and Shell Commands Cheatsheet **For Mac Users** 
+🧑‍💻 Terminal and Shell Commands Cheatsheet **For Mac Users** 
 
 The shell takes commands and executes them against the operating system. The terminal is a program that wraps the shell. This list includes common commands and scripts for learning more about navigating the terminal.
 
